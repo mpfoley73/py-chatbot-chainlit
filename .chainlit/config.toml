@@ -35,13 +35,13 @@ multi_modal = true
 
 [UI]
 # Name of the app and chatbot.
-name = "My Chatbot using OpenAI and Chainlit"
+name = "Chesterbot"
 
 # Show the readme while the thread is empty.
 show_readme_as_default = true
 
 # Description of the app and chatbot. This is used for HTML tags.
-# description = ""
+# description = "Toy chatbot using OpenAI, python, and Chainlit"
 
 # Large size content are by default collapsed for a cleaner ui
 default_collapse_content = true
@@ -53,7 +53,7 @@ default_expand_messages = false
 hide_cot = false
 
 # Link to your github repo. This will add a github button in the UI's header.
-# github = ""
+# github = "https://github.com/mpfoley73/py-chatbot-chainlit"
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.

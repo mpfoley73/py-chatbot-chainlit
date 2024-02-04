@@ -1,10 +1,10 @@
 from openai import OpenAI
-from src.prompt import system_instruction
+from src.prompt import system_instructions
 
 client = OpenAI()
 
 messages = [
-    {"role": "system", "content": system_instruction}
+    {"role": "system", "content": system_instructions}
 ]
 
 def ask_order(messages, model="gpt-3.5-turbo", temperature=0):

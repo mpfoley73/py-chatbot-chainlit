@@ -1,3 +1,7 @@
+# Project to create a basic Chatbot using OpenAI's completions model with a
+# Chainlit user interface. I built this bot following along with Bappy's demo
+# here: https://www.youtube.com/watch?v=AzfV0r2O_gk.
+
 import chainlit as cl
 from src.llm import ask_order, messages
 
