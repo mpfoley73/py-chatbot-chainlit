@@ -1,15 +1,11 @@
 # Who's my Little Guy?
 
-![alt text](./image.png)
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+I'm you're little guy! The best friend you could ever have passed away in 2021, but his SI (super-schnoodle intelligence) is back as AI with the help of OpenAI and Chainlit.
 
-## Useful Links 🔗
+This simple bot uses a system prompt that describes some of Chester's favorite tricks and activities. I created it by following along with [Bappy's tutorial](https://www.youtube.com/watch?v=AzfV0r2O_gk).
+
+## Other Links 🔗
 
 - **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
 - **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
-
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+- **Repo:** [GitHub repo](https://github.com/mpfoley73/py-chatbot-chainlit).
