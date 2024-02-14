@@ -6,8 +6,8 @@ from src.prompt import system_instructions
 
 client = OpenAI()
 
-# Initialize the conversation by setting the system prompt. It may be 
-# convoluted to define `system_instructions` in a variable set in prompt.py.
+# Initialize the conversation by setting the system prompt. system_instructions
+# is defined in prompt.py. messages is an array of dictionaries.
 
 messages = [
     {"role": "system", "content": system_instructions}
@@ -16,6 +16,7 @@ messages = [
 # Standard call to OpenAI API. The model and temperature are parameters, but 
 # I don't know how to create drop-down menus in Chainlit, so values are not
 # passed in and the defaults are always used.
+
 def get_chesters_response(messages, model="gpt-3.5-turbo", temperature=0.2):
     response = client.chat.completions.create(
         model=model,
